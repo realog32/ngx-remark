@@ -1,0 +1,42 @@
+{
+  "name": "ngx-remark",
+  "version": "0.0.6",
+  "author": {
+    "name": "Eric Leibenguth",
+    "email": "eric.leibenguth@gmail.com",
+    "url": "https://github.com/ericleib",
+    "github": "ericleib",
+    "twitter": "EricLeibenguth"
+  },
+  "description": "Angular component for rendering custom markdown using Remark",
+  "keywords": [
+    "angular",
+    "remark",
+    "unified",
+    "markdown"
+  ],
+  "license": "MIT",
+  "repository": "github:ericleib/ngx-remark",
+  "peerDependencies": {
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "remark": "^15.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.6.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/ngx-remark.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/ngx-remark.mjs",
+      "esm": "./esm2022/ngx-remark.mjs",
+      "default": "./fesm2022/ngx-remark.mjs"
+    }
+  }
+}

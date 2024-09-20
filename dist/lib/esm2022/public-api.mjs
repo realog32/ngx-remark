@@ -1,0 +1,9 @@
+/*
+ * Public API Surface of lib
+ */
+export * from './remark.module';
+export * from './remark.component';
+export * from './remark-template.directive';
+export * from './remark-node.component';
+export * from './remark-templates.service';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL2xpYi9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsaUJBQWlCLENBQUM7QUFDaEMsY0FBYyxvQkFBb0IsQ0FBQztBQUNuQyxjQUFjLDZCQUE2QixDQUFDO0FBQzVDLGNBQWMseUJBQXlCLENBQUM7QUFDeEMsY0FBYyw0QkFBNEIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgbGliXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9yZW1hcmsubW9kdWxlJztcbmV4cG9ydCAqIGZyb20gJy4vcmVtYXJrLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL3JlbWFyay10ZW1wbGF0ZS5kaXJlY3RpdmUnO1xuZXhwb3J0ICogZnJvbSAnLi9yZW1hcmstbm9kZS5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9yZW1hcmstdGVtcGxhdGVzLnNlcnZpY2UnO1xuIl19
