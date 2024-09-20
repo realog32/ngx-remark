@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve demo",
     "build": "ng build lib",
+    "prepare": "ng build lib",
     "postbuild": "copyfiles README.md LICENSE dist/lib",
     "build:demo": "ng build demo",
     "watch": "ng build --watch --configuration development",
