@@ -3,7 +3,7 @@ import { RemarkTemplateDirective } from './remark-template.directive';
 import { RemarkTemplatesService } from './remark-templates.service';
 import { unified, Processor } from 'unified';
 import remarkParse from 'remark-parse';
-import { Root, Node } from 'mdast';
+import { Root } from 'mdast';
 
 @Component({
   selector: 'remark',
@@ -26,7 +26,7 @@ export class RemarkComponent implements OnChanges, AfterContentInit {
   @ContentChildren(RemarkTemplateDirective)
   templateQuery?: QueryList<RemarkTemplateDirective>;
 
-  tree?: Node;
+  tree?: any;
 
   get templates() {
     return this.remarkTemplatesService.templates;
